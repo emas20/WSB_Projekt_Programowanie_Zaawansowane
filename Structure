@@ -12,6 +12,11 @@ Payment (Płatność):
 Opis: Reprezentuje informacje o płatności.
 Pola: Id, Kwota, Data płatności, Id użytkownika, Status płatności, itp.
 
+User_Permission (Uprawnienia)
+opis : Reprezentuje uprawnienia przypisane do konkretnego użytkownika w systemie. Przechowuje informacje o identyfikatorze użytkownika oraz listę uprawnień przypisanych do tego użytkownika.
+Pola: UserId - pole typu int, które przechowuje identyfikator użytkownika. Jest to unikalny identyfikator, który służy do powiązania uprawnień z konkretnym użytkownikiem w systemie.
+Permissions - pole typu List<string>, które przechowuje listę uprawnień przypisanych do użytkownika. Każde uprawnienie jest reprezentowane jako string. Może to być np. nazwa roli, która określa zestaw uprawnień, jakie użytkownik posiada.
+
 
 Kontrolery w folderze "Controllers":
 
@@ -26,3 +31,8 @@ Metody: CreateAppointment (Tworzenie wizyty), GetAppointmentHistory (Pobieranie 
 PaymentController (Kontroler płatności):
 Opis: Zarządza operacjami związanymi z płatnościami, takimi jak opłacanie wizyt, sprawdzanie statusu płatności, dodawanie/usuwanie płatności itp.
 Metody: MakePayment (Dokonywanie płatności), CheckPaymentStatus (Sprawdzanie statusu płatności), AddPayment (Dodawanie płatności), RemovePayment (Usuwanie płatności), itp
+
+User_permissionController (Kontroler uprawnień)
+Opis : obsługuje żądania związane z zarządzaniem uprawnieniami użytkowników. Udostępnia metody do pobierania uprawnień użytkownika oraz ustawiania uprawnien.
+Metody : GetUserPermissions(int userId) - Metoda typu GET, która pobiera uprawnienia użytkownika o podanym identyfikatorze userId. Wywołuje serwis IUserPermissionService w celu pobrania uprawnień użytkownika. Jeśli uprawnienia nie istnieją, zwraca kod odpowiedzi 404 (NotFound). W przeciwnym razie zwraca kod odpowiedzi 200 (Ok) wraz z listą uprawnień użytkownika.
+SetUserPermissions(int userId, List<string> permissions) - Metoda typu POST, która ustawia uprawnienia dla użytkownika o podanym identyfikatorze userId. Wywołuje serwis  IUserPermissionService w celu ustawienia uprawnień użytkownika. Jeśli operacja się nie powiedzie, zwraca kod odpowiedzi 400 (BadRequest). W przeciwnym razie zwraca kod odpowiedzi 200 (Ok).
