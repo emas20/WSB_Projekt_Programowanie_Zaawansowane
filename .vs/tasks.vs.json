@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "zadanie-WSB_Projekt_Programowanie_Zaawansowane",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
