@@ -50,3 +50,43 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignoruj pliki NuGet
+packages/
+
+# Ignoruj pliki środowiska
+.env
+
+# Ignoruj pliki zależności Node.js
+node_modules/
+
+# Ignoruj pliki generowane przez IDE
+.idea/
+.vscode/
+
+# Ignoruj pliki generowane przez system operacyjny
+Thumbs.db
+.DS_Store
+
+# Ignoruj pliki testów
+test-results/
+
+# Ignoruj pliki tymczasowe edytora
+*.swp
+*.swo
+
+# Ignoruj pliki wygenerowane przez narzędzia budowania
+*.msi
+*.zip
+*.rar
+
+# Ignoruj pliki konfiguracyjne
+*.config
+*.config.user
+
+# Ignoruj pliki tymczasowe
+*.tmp
+*.temp
+
+# Ignoruj pliki logów
+*.log
