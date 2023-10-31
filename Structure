@@ -1,0 +1,28 @@
+Klasy w folderze "Models":
+
+User (Użytkownik):
+Opis: Reprezentuje informacje o użytkowniku.
+Pola: Id, Imię, Nazwisko, Email, Hasło, itp.
+
+Appointment (Wizyta):
+Opis: Reprezentuje informacje o umówionej wizycie.
+Pola: Id, Data, Godzina, Id użytkownika, Status płatności, itp.
+
+Payment (Płatność):
+Opis: Reprezentuje informacje o płatności.
+Pola: Id, Kwota, Data płatności, Id użytkownika, Status płatności, itp.
+
+
+Kontrolery w folderze "Controllers":
+
+UserController (Kontroler użytkownika):
+Opis: Zarządza operacjami związanymi z użytkownikami, takimi jak rejestracja, logowanie, wylogowywanie, zarządzanie profilem itp.
+Metody: Register (Rejestracja), Login (Logowanie), Logout (Wylogowywanie), UpdateProfile (Aktualizacja profilu), itp.
+
+AppointmentController (Kontroler wizyt):
+Opis: Zarządza operacjami związanymi z wizytami, takimi jak umawianie wizyt, przeglądanie historii wizyt, edycja wizyt itp.
+Metody: CreateAppointment (Tworzenie wizyty), GetAppointmentHistory (Pobieranie historii wizyt), EditAppointment (Edycja wizyty), itp.
+
+PaymentController (Kontroler płatności):
+Opis: Zarządza operacjami związanymi z płatnościami, takimi jak opłacanie wizyt, sprawdzanie statusu płatności, dodawanie/usuwanie płatności itp.
+Metody: MakePayment (Dokonywanie płatności), CheckPaymentStatus (Sprawdzanie statusu płatności), AddPayment (Dodawanie płatności), RemovePayment (Usuwanie płatności), itp
