@@ -3,7 +3,7 @@ Projekt z programowania zaawansowanego
 
 Projekt zaliczeniowy polega na stworzeniu strony internetowej. Tematyka jest dowolna, ale musi być wybrana w taki sposób, by spełnić wszystkie wymagania podane niżej. Zatem tematyka, która naturalnie pomija niektóre funkcjonalności (np. strony na których nie ma sensu tworzenie kont użytkowników), nie jest akceptowalna.
 
-Wymagania funkcjonalne:
+**Wymagania funkcjonalne:**
 
 1. projekt musi posiadać bazę danych, łączyć się z nią, pobierać z niej dane i wstawiać do niej dane; technologia dowolna;
 2. projekt musi posiadać możliwość rejestracji kont użytkowników, logowania i wylogowania;
@@ -17,12 +17,14 @@ Wymagania funkcjonalne:
 Projekt Umawianie Wizyt Stomatologicznych jest stroną internetową umożliwiającą użytkownikom umawianie wizyt u stomatologa. Projekt został stworzony w ramach zadania zaliczeniowego.
 
 **Wymagania**
+
 Aby uruchomić projekt lokalnie, wymagane są następujące narzędzia:
 1. Visual Studio (wersja 2019 lub nowsza) lub inny edytor kodu
 2. .NET Core SDK (wersja 3.1 lub nowsza)
 3. Baza danych (np. SQL Server, MySQL)
 
 **Instrukcje instalacji**
+
 Sklonuj repozytorium na swoje lokalne środowisko:
 **git clone https://github.com/twoj-repozytorium.git**
 Otwórz projekt w wybranym edytorze kodu (np. Visual Studio).
@@ -34,6 +36,7 @@ Uruchom projekt:
 Otwórz przeglądarkę internetową i przejdź do adresu http://localhost:5000, aby zobaczyć stronę główną projektu.
 
 **Dokumentacja API**
+
 Projekt udostępnia API, które umożliwia komunikację z aplikacją. Dokumentacja API jest dostępna pod adresem http://localhost:5000/swagger, po uruchomieniu projektu.
 
 
