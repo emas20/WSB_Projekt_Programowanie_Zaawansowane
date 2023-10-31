@@ -38,6 +38,6 @@ Projekt udostępnia API, które umożliwia komunikację z aplikacją. Dokumentac
 
 
 **Autorzy**
-Przemysław Wierzbicki
 
+Przemysław Wierzbicki
 Mikołaj Bielak
