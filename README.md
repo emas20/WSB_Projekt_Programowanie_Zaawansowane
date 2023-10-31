@@ -13,6 +13,7 @@ Wymagania funkcjonalne:
 
 
 **#Projekt Umawianie Wizyt Stomatologicznych**
+
 Projekt Umawianie Wizyt Stomatologicznych jest stroną internetową umożliwiającą użytkownikom umawianie wizyt u stomatologa. Projekt został stworzony w ramach zadania zaliczeniowego.
 
 **Wymagania**
@@ -38,4 +39,5 @@ Projekt udostępnia API, które umożliwia komunikację z aplikacją. Dokumentac
 
 **Autorzy**
 Przemysław Wierzbicki
+
 Mikołaj Bielak
