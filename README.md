@@ -40,4 +40,5 @@ Projekt udostępnia API, które umożliwia komunikację z aplikacją. Dokumentac
 **Autorzy**
 
 Przemysław Wierzbicki
+
 Mikołaj Bielak
