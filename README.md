@@ -19,8 +19,8 @@ Projekt Umawianie Wizyt Stomatologicznych jest stroną internetową umożliwiaj�
 **Wymagania**
 
 Aby uruchomić projekt lokalnie, wymagane są następujące narzędzia:
-1. Visual Studio (wersja 2019 lub nowsza) lub inny edytor kodu
-2. .NET Core SDK (wersja 3.1 lub nowsza)
+1. Visual Studio (wersja 2022 lub nowsza) lub inny edytor kodu
+2. .NET Core SDK (wersja 6.0 lub nowsza)
 3. Baza danych (np. SQL Server, MySQL)
 
 **Instrukcje instalacji**
